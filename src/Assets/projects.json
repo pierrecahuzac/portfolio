@@ -1,0 +1,65 @@
+[
+  {
+    "h4": "PortFolio",
+    "p": "Vous êtes dessus, mono page de présentation avec diverses animations ayant pour but de me présenter.",
+    "span": ["React"],
+    "link": "https://pierrecahuzac.vercel.app/",
+    "img": "/portfolio.png"
+  },
+  {
+    "h4": "Météo Actuelle",
+    "p": "Projet frontend de recherche de la météo de la ville demandée (dans le monde entier)",
+    "span": ["React", "Redux"],
+    "link": "https://meteo-actuelle.netlify.app/",
+    "img": "/meteo-actuelle.png"
+  },
+  {
+    "h4": "Super Heroes",
+    "p": "Projet en cours qui permet d'afficher des super-heros de différents uniivers depuis une API publique",
+    "span": ["NuxtJS, API"],
+    "link": "http://superheroes-nuxtjs.herokuapp.com/",
+    "img": "/superheroes.png"
+  },
+  {
+    "h4": "Pixel Art",
+    "p": "Projet en cours qui permet de créer une grille pour dessiner en pixel art",
+    "span": ["React"],
+    "link": "https://drawer-ivory.vercel.app/",
+    "img": "/pixel_art.png"
+  },
+  {
+    "h4": "Je gère ma collection",
+    "p": "Projet en cours qui permet de suivre une collection de CD, vinyles...",
+    "span": ["React", "TailwindCSS"],
+    "link": "https://jegeremacollection.com/",
+    "img": "/jegeremacollection.png"
+  },
+  {
+    "h4": "TS shows",
+    "p": "Cette application affiche une liste de séries TV issu d'une API publique",
+    "span": ["VueJS"],
+    "link": "https://tvshows-vuejs.netlify.app/",
+    "img": "/tvshows.png"
+  },
+  {
+    "h4": "Site du groupe Ben et Fist",
+    "p": "Site du groupe de punk/rock toulousain Ben et Fist",
+    "span": ["NextJS"],
+    "link": "https://ben-fist-nextjs.vercel.app/",
+    "img": "/ben_et_fist.png"
+  },
+  {
+    "h4": "Yams",
+    "p": "Un porjet en cours de jeu de Yams!",
+    "span": ["NuxtJS"],
+    "link": "http://yams-nuxtjs.herokuapp.com/",
+    "img": "/yams.png"
+  },
+  {
+    "h4": "Tarkov Items Manager",
+    "p": "Projet de fin de formation en équipe, permet un suivi de l'évolution du joueur dans le jeu Escape from Tarkov",
+    "span": ["React", "Redux", "PostgrSQL", "NodeJS", "Express"],
+    "link": "https://www.youtube.com/watch?t=2835&v=Z7l8V3uRuVc&feature=youtu.be",
+    "img": "/tarkov.png"
+  }
+]

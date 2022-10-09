@@ -1,0 +1,33 @@
+[
+  {
+    "img": "/html-5-logo-svgrepo-com.svg"
+  },
+  {
+    "img": "/css-svgrepo-com.svg"
+  },
+
+  {
+    "img": "/js-svgrepo-com.svg"
+  },
+  {
+    "img": "/react-svgrepo-com.svg"
+  },
+  {
+    "img": "/nextjs-svgrepo-com.svg"
+  },
+  {
+    "img": "/vue-svgrepo-com.svg"
+  },
+  {
+    "img": "/nuxt-icon-svgrepo-com.svg"
+  },
+  {
+    "img": "/express-svgrepo-com.svg"
+  },
+  {
+    "img": "/pgsql-svgrepo-com.svg"
+  },
+  {
+    "img": "/mongodb-svgrepo-com.svg"
+  }
+]

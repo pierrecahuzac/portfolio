@@ -1,0 +1,38 @@
+[
+  {
+    "nom": "CAHUZAC",
+    "prenom": "Pierre",
+    "adresse": "32600 L'Isle-Jourdain",
+    "email": "cahuzac.p[@]gmail.com",
+    "linkedin": "https://www.linkedin.com/in/pcahuzac/"
+  },
+  {
+    "projects": [
+      {
+        "h4": "PortFolio",
+        "p": "Vous êtes dessus, mono page de présentation avec diverses animations ayant pour but de me présenter.",
+        "span": ["React"],
+        "link": "https://pierrecahuzac.vercel.app/"
+      },
+      {
+        "h4": "Tarkov Items Manager",
+        "p": " Compagnon au jeu 'Escape from Tarkov' permettant au joueur de gérer sa progression de collecte d'objets. Cette fonction n'est pas présente dans le jeu et elle apporte un confort important au joueur pour mieux se repérer.",
+        "span": ["React", "Redux", "PostgrSQL", "NodeJS", "Express"],
+        "link": "https://tarkovitemsmanager.netlify.app/"
+      },
+
+      {
+        "h4": "Météo Actuelle",
+        "p": "Projet frontend de recherche de la météo de la ville demandée (dans le monde entier)",
+        "span": ["React", "Redux"],
+        "link": "https://meteo-actuelle.netlify.app/"
+      },
+      {
+        "h4": "Pixel Art",
+        "p": "Projet en cours qui permet de créer une grille pour dessiner en pixel art",
+        "span": ["React"],
+        "link": "https://drawer-ivory.vercel.app/"
+      }
+    ]
+  }
+]
