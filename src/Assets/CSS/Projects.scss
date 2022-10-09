@@ -1,0 +1,70 @@
+.projects {
+  height: auto;
+  margin: auto;
+  padding-top: 50px;
+  &_text {
+    display: flex;
+  }
+  &_list {
+    display: flex;
+    margin: auto;
+    width: 90%;
+  }
+}
+
+.project {
+  display: flex;
+  max-width: auto;
+  height: 230px;
+  align-items: center;
+  background-color: transparent;
+  justify-content: space-between;
+  margin: 20px;
+  &_title_container {
+    width: 250px;
+    display: flex;
+    text-align: left;
+  }
+  &_technos {
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  &_img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 270px;
+  }
+  &_img {
+    width: auto;
+    max-height: 180px;
+    object-fit: cover;
+  }
+  &_img:hover {
+    border: solid 1px grey;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .project {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    &_title_container {
+      width: auto;
+      display: flex;
+      text-align: center;
+    }
+    &_img-container {
+      display: block;
+      height: 200px;
+      width: auto;
+    }
+  }
+}

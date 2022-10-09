@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseFill } from "react-icons/ri";
 
-import "../Assets/CSS/Header.css";
+import "../Assets/CSS/Header.scss";
 
 export default function Header({ isOpen, setIsOpen }) {
   const handleMenu = () => {
@@ -19,31 +20,31 @@ export default function Header({ isOpen, setIsOpen }) {
   return (
     <div className="header">
       <div className="header_nav">
-        <NavLink to="/" className="header_logo">
+        <HashLink to="/" className="header_logo">
           PORTFOLIO
-        </NavLink>
+        </HashLink>
         <div className="header_links">
-          <NavLink
-            to="#projects"
+          <HashLink
+            to="/#projects"
             className="header_link"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            /*  style={({ isActive }) => (isActive ? activeStyle : undefined)} */
           >
             MES PROJETS
-          </NavLink>
-          <NavLink
-            to="#skills"
+          </HashLink>
+          <HashLink
+            to="/#skills"
             className="header_link"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            /*  style={({ isActive }) => (isActive ? activeStyle : undefined)} */
           >
             MES COMPETENCES
-          </NavLink>
-          <NavLink
-            to="#contacts"
+          </HashLink>
+          <HashLink
+            to="/#contacts"
             className="header_link"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            /*  style={({ isActive }) => (isActive ? activeStyle : undefined)} */
           >
             CONTACTS
-          </NavLink>
+          </HashLink>
         </div>
       </div>
       <button className="header_menu_btn" onClick={handleMenu}>
@@ -51,27 +52,27 @@ export default function Header({ isOpen, setIsOpen }) {
       </button>
       {isOpen && (
         <div className="header_nav-open">
-          <NavLink
+          <HashLink
             to="#projects"
             className="header_link"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             MES PROJETS
-          </NavLink>
-          <NavLink
+          </HashLink>
+          <HashLink
             to="#skills"
             className="header_link"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             MES COMPETENCES
-          </NavLink>
-          <NavLink
+          </HashLink>
+          <HashLink
             to="#contacts"
             className="header_link"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             CONTACTS
-          </NavLink>
+          </HashLink>
         </div>
       )}
     </div>

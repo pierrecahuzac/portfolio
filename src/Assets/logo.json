@@ -1,0 +1,19 @@
+{
+  "logos": [
+    {
+      "title": "Email",
+      "img": "/svg/email-mail-svgrepo-com.svg",
+      "link": "mailto:cahuzac.p@gmail.com"
+    },
+    {
+      "title": "LinkedIn",
+      "img": "/svg/linkedin-240.svg",
+      "link": "https://www.linkedin.com/in/pcahuzac/"
+    },
+    {
+      "title": "GitHub",
+      "img": "/svg/iconmonstr-github-1.svg",
+      "link": "https://github.com/inflames32"
+    }
+  ]
+}
