@@ -1,4 +1,4 @@
-import "../Assets/CSS/Skills.css";
+import "../Assets/CSS/Skills.scss";
 import SkillsData from "../Assets/projects.json";
 
 export default function Skills() {
@@ -10,9 +10,9 @@ export default function Skills() {
 
       <div className="skills_container">
         {SkillsData.skills.map((skill) => (
-          <div className="skills_img_container">
-            <img src={"/Img/svg" + skill.img} alt="" className="skills_img" />
-          </div>
+          /*  <div className="skills_img_container"> */
+          <img src={"/Img/svg" + skill.img} alt="" className="skills_img" />
+          /* </div> */
         ))}
       </div>
     </div>

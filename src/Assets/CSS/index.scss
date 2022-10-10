@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   scroll-behavior: smooth;
@@ -12,7 +14,3 @@ body {
 a:hover {
   cursor: pointer;
 }
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */

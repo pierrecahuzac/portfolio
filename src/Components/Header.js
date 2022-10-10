@@ -15,7 +15,7 @@ export default function Header({ isOpen, setIsOpen }) {
     textDecoration: "underline",
   };
 
-  let activeClassName = "underline";
+  let activeClassName = "active";
 
   return (
     <div className="header">
@@ -55,21 +55,21 @@ export default function Header({ isOpen, setIsOpen }) {
           <HashLink
             to="#projects"
             className="header_link"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            /* style={({ isActive }) => (isActive ? activeClassName : undefined)} */
           >
             MES PROJETS
           </HashLink>
           <HashLink
             to="#skills"
             className="header_link"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            /* style={({ isActive }) => (isActive ? activeClassName : undefined)} */
           >
             MES COMPETENCES
           </HashLink>
           <HashLink
             to="#contacts"
             className="header_link"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            /* style={({ isActive }) => (isActive ? activeClassName : undefined)} */
           >
             CONTACTS
           </HashLink>

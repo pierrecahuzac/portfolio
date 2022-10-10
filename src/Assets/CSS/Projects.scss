@@ -1,7 +1,9 @@
 .projects {
+  width: 80%;
   height: auto;
   margin: auto;
   padding-top: 50px;
+  margin-bottom: 50px;
   &_text {
     display: flex;
   }
@@ -13,9 +15,11 @@
 }
 
 .project {
+  background-color: #223a55;
+  border-radius: 50px;
   display: flex;
   max-width: auto;
-  height: 230px;
+  height: 270px;
   align-items: center;
   background-color: transparent;
   justify-content: space-between;
@@ -25,30 +29,39 @@
     display: flex;
     text-align: left;
   }
+  &_informations {
+    width: 35%;
+  }
   &_technos {
     padding: 10px 0;
     font-weight: bold;
   }
   &_img-container {
+    width: 270px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 270px;
+    object-fit: fill;
   }
   &_img {
-    width: auto;
-    max-height: 180px;
+    width: 440px;
+    height: auto;
     object-fit: cover;
+    border-radius: 15px;
   }
   &_img:hover {
     border: solid 1px grey;
+  }
+  &_informations {
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .project {
-    height: 400px;
+    border-radius: 50px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -56,6 +69,7 @@
     align-items: center;
     text-align: center;
     margin: auto;
+    margin-bottom: 50px;
     &_title_container {
       width: auto;
       display: flex;

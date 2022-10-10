@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Aos from "aos";
 import Header from "./Header.js";
+import Presentation from "./Presentation.js";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import Skills from "./Skills.js";
@@ -14,34 +15,24 @@ export default function App() {
   });
 
   const [isOpen, setIsOpen] = useState(false);
-  const [firstname, setFirstname] = useState("");
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [contactInformations, setContactInformations] = useState({
+
+  /* const [contactInformations, setContactInformations] = useState({
     name: "",
     firstname: "",
     email: "",
     message: "",
-  });
+  }); */
 
   return (
     <div className="App">
       <Header isOpen={isOpen} setIsOpen={setIsOpen} />
-      <Projects />
+      <Presentation />
       <Skills />
-      <Footer
+      <Projects />
+      {/* <Footer
         contactInformations={contactInformations}
         setContactInformations={setContactInformations}
-        name={name}
-        setName={setName}
-        firstname={firstname}
-        setFirstname={setFirstname}
-        email={email}
-        setEmail={setEmail}
-        message={message}
-        setMessage={setMessage}
-      />
+      /> */}
     </div>
   );
 }
