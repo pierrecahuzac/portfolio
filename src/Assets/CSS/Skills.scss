@@ -1,5 +1,7 @@
 @media screen and(max-width:1000px) {
   .skills {
+    margin-top: 100px;
+    padding-top: 50px;
     &_container {
       display: flex;
       flex-wrap: wrap;
@@ -16,18 +18,6 @@
     &_title_container {
       height: 80px;
     }
-    /*  &_container {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      flex-wrap: wrap;
-    }
-    &_img_container {
-      width: 20%;
-      height: auto;
-      object-fit: cover;
-      object-position: center;
-    } */
   }
 }
 @media screen and(min-width:1001px ) {
@@ -48,12 +38,4 @@
       height: 100px;
     }
   }
-
-  /* .skills_img_container {
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
-    margin: 20px;
-  } */
 }

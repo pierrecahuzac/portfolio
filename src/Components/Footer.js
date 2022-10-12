@@ -1,6 +1,6 @@
 import "../Assets/CSS/Footer.scss";
 import logosJson from "../Assets/projects.json";
-console.log(logosJson);
+
 export default function Footer({}) {
   return (
     <div className="footer" id="contacts">

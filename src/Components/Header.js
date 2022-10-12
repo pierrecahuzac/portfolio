@@ -25,13 +25,6 @@ export default function Header({ isOpen, setIsOpen }) {
         </HashLink>
         <div className="header_links">
           <HashLink
-            to="/#projects"
-            className="header_link"
-            /*  style={({ isActive }) => (isActive ? activeStyle : undefined)} */
-          >
-            MES PROJETS
-          </HashLink>
-          <HashLink
             to="/#skills"
             className="header_link"
             /*  style={({ isActive }) => (isActive ? activeStyle : undefined)} */
@@ -39,19 +32,42 @@ export default function Header({ isOpen, setIsOpen }) {
             MES COMPETENCES
           </HashLink>
           <HashLink
-            to="/#contacts"
+            to="/#projects"
             className="header_link"
             /*  style={({ isActive }) => (isActive ? activeStyle : undefined)} */
           >
-            CONTACTS
+            MES PROJETS
           </HashLink>
         </div>
       </div>
       <button className="header_menu_btn" onClick={handleMenu}>
-        {isOpen ? <RiCloseFill /> : <GiHamburgerMenu />}
+        <GiHamburgerMenu />
       </button>
-      {isOpen && (
+      {isOpen ? (
         <div className="header_nav-open">
+          {" "}
+          <HashLink
+            to="#skills"
+            className="header_link"
+            /* style={({ isActive }) => (isActive ? activeClassName : undefined)} */
+          >
+            MES COMPETENCES
+          </HashLink>
+          <HashLink
+            to="#projects"
+            className="header_link"
+            /* style={({ isActive }) => (isActive ? activeClassName : undefined)} */
+          >
+            MES PROJETS
+          </HashLink>
+          <div className="header_menu_btn_container">
+            <button className="header_menu_btn" onClick={handleMenu}>
+              {isOpen ? <RiCloseFill /> : <GiHamburgerMenu />}
+            </button>
+          </div>
+        </div>
+      ) : (
+        <div className="header_nav-close">
           <HashLink
             to="#projects"
             className="header_link"
@@ -73,6 +89,9 @@ export default function Header({ isOpen, setIsOpen }) {
           >
             CONTACTS
           </HashLink>
+          <button className="header_menu_btn" onClick={handleMenu}>
+            <RiCloseFill />
+          </button>
         </div>
       )}
     </div>
