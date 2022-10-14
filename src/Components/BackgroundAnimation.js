@@ -9,7 +9,7 @@ export default function BackgroundAnimation() {
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+    await container;
   }, []);
   return (
     <Particles
@@ -24,25 +24,6 @@ export default function BackgroundAnimation() {
           },
         },
         fpsLimit: 120,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
         particles: {
           color: {
             value: "#ffffff",

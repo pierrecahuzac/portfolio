@@ -15,7 +15,6 @@ export default function Header({ isOpen, setIsOpen }) {
         <HashLink to="/" id="#accueil" className="header_logo">
           PORTFOLIO
         </HashLink>
-
         <div className="header_links">
           <HashLink to="/#me" id="#me" className="header_link">
             QUI SUIS-JE?
@@ -31,9 +30,12 @@ export default function Header({ isOpen, setIsOpen }) {
       <button className="header_menu_btn" onClick={handleMenu}>
         <GiHamburgerMenu />
       </button>
-
       {isOpen ? (
+        /*   <div className="header_nav_container-open"> */
         <nav className="header_nav-open">
+          <HashLink to="/#me" id="#me" className="header_link">
+            QUI SUIS-JE?
+          </HashLink>
           <HashLink to="#skills" className="header_link">
             MES COMPETENCES
           </HashLink>
@@ -42,12 +44,16 @@ export default function Header({ isOpen, setIsOpen }) {
           </HashLink>
           <div className="header_menu_btn_container">
             <button className="header_menu_btn" onClick={handleMenu}>
-              {isOpen ? <RiCloseFill /> : <GiHamburgerMenu />}
+              <RiCloseFill />
             </button>
           </div>
         </nav>
       ) : (
+        /*  </div> */
         <nav className="header_nav-close">
+          <HashLink to="/#me" id="#me" className="header_link">
+            QUI SUIS-JE?
+          </HashLink>
           <HashLink to="#projects" className="header_link">
             MES PROJETS
           </HashLink>
