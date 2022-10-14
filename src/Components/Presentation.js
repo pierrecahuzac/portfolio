@@ -5,14 +5,14 @@ import presentation from "../Assets/projects.json";
 
 export default function Presentation() {
   return (
-    <div className="presentation">
+    <div className="presentation" id="me">
       {presentation.presentation.map((elem) => (
         <div className="presentation_container">
           <h1 className="presentation_title">{elem.h1}</h1>
           <h2 className="presentation_subtitle">{elem.h2}</h2>
           <p className="presentation_informations">{elem.subtitle}</p>
         </div>
-      ))}{" "}
+      ))}
       <div className="presentation_logos">
         <a
           href="https://www.linkedin.com/in/pcahuzac/"

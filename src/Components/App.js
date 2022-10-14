@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Aos from "aos";
 import Header from "./Header.js";
+import BackgroundAnimation from "./BackgroundAnimation.js";
 import Presentation from "./Presentation.js";
 import Projects from "./Projects";
 import Top from "./Top";
@@ -25,6 +26,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <BackgroundAnimation />
       <Header isOpen={isOpen} setIsOpen={setIsOpen} />
       <Top />
       <Presentation />
