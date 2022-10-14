@@ -9,9 +9,14 @@ export default function Skills() {
       </div>
 
       <div className="skills_container">
-        {SkillsData.skills.map((skill) => (
+        {SkillsData.skills.map((skill, i) => (
           /*  <div className="skills_img_container"> */
-          <img src={"/Img/svg" + skill.img} alt="" className="skills_img" />
+          <img
+            src={"/Img/svg" + skill.img}
+            alt=""
+            className="skills_img"
+            key={i}
+          />
           /* </div> */
         ))}
       </div>

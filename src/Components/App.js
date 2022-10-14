@@ -3,7 +3,7 @@ import Aos from "aos";
 import Header from "./Header.js";
 import Presentation from "./Presentation.js";
 import Projects from "./Projects";
-import Footer from "./Footer";
+import Top from "./Top";
 import Skills from "./Skills.js";
 import "../Assets/CSS/App.scss";
 
@@ -26,6 +26,7 @@ export default function App() {
   return (
     <div className="App">
       <Header isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Top />
       <Presentation />
       <Skills />
       <Projects />

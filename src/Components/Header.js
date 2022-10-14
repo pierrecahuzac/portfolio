@@ -18,9 +18,9 @@ export default function Header({ isOpen, setIsOpen }) {
   let activeClassName = "active";
 
   return (
-    <div className="header">
-      <div className="header_nav">
-        <HashLink to="/" className="header_logo">
+    <div className="header" id="accueil">
+      <nav className="header_nav">
+        <HashLink to="/" id="#accueil" className="header_logo">
           PORTFOLIO
         </HashLink>
         <div className="header_links">
@@ -39,12 +39,12 @@ export default function Header({ isOpen, setIsOpen }) {
             MES PROJETS
           </HashLink>
         </div>
-      </div>
+      </nav>
       <button className="header_menu_btn" onClick={handleMenu}>
         <GiHamburgerMenu />
       </button>
       {isOpen ? (
-        <div className="header_nav-open">
+        <nav className="header_nav-open">
           {" "}
           <HashLink
             to="#skills"
@@ -65,9 +65,9 @@ export default function Header({ isOpen, setIsOpen }) {
               {isOpen ? <RiCloseFill /> : <GiHamburgerMenu />}
             </button>
           </div>
-        </div>
+        </nav>
       ) : (
-        <div className="header_nav-close">
+        <nav className="header_nav-close">
           <HashLink
             to="#projects"
             className="header_link"
@@ -92,7 +92,7 @@ export default function Header({ isOpen, setIsOpen }) {
           <button className="header_menu_btn" onClick={handleMenu}>
             <RiCloseFill />
           </button>
-        </div>
+        </nav>
       )}
     </div>
   );

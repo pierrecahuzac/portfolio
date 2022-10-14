@@ -5,7 +5,7 @@
         font-family: "Kanit", sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: left;
+        justify-content: center;
         align-items: flex-start;
         width: 100%;
         height: 100vh;
@@ -15,7 +15,7 @@
         &_container {
             width: 90%;
             height: auto;
-            margin: auto;
+            margin: 0 auto 50px;
         }
         &_title {
             font-size: 50px;
@@ -37,22 +37,21 @@
         }
         &_logos {
             display: flex;
-            width: 400px;
-            height: 100px;
-            align-items: center;
-            justify-content: center;
-            margin: auto;
+            flex-wrap: wrap;
+            width: 80%;
+            justify-content: space-evenly;
+
+            margin: 0 auto;
         }
         &_logo {
             display: flex;
             width: 50px;
             height: 50px;
-            margin: 0 50px;
             color: $text-color;
         }
-        &_logo > svg {
-            width: 50px;
-            height: 50px;
+        &_logo svg {
+            width: 100%;
+            height: auto;
         }
         &_logo:hover {
             color: rgb(29, 29, 29);
@@ -74,9 +73,8 @@
         &_container {
             width: 100%;
             height: auto;
-            margin-left: 10%;
-            margin-top: 50px;
-            padding-bottom: 50px;
+            padding-left: 50px;
+            padding-top: 150px;
         }
         &_title {
             font-size: 50px;
@@ -97,22 +95,21 @@
         }
         &_logos {
             display: flex;
-            width: 400px;
-            height: 100px;
-            align-items: center;
-            justify-content: center;
-            color: $text-color;
+            flex-wrap: wrap;
+            width: 80%;
+            justify-content: space-evenly;
+            padding-left: 50px;
         }
         &_logo {
+            display: block;
+            padding: 5px;
             width: 50px;
             height: 50px;
-            margin: 0 50px;
-            color: black;
             color: $text-color;
         }
-        &_logo > svg {
-            width: 50px;
-            height: 50px;
+        &_logo svg {
+            width: 100%;
+            height: auto;
         }
         &_logo:hover {
             color: rgb(29, 29, 29);
