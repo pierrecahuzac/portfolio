@@ -10,33 +10,19 @@
   "projects": [
     {
       "h4": "Pixel Art",
-      "p": "Projet en cours qui permet de créer une grille pour dessiner en pixel art",
+      "p": "Projet pour dessiner en pixel art",
       "techno": ["React"],
       "link": "https://drawer-ivory.vercel.app/",
       "img": "/pixel_art.png"
     },
     {
       "h4": "Super Heroes",
-      "p": "Projet en cours qui permet d'afficher des super-heros de différents univers depuis une API publique",
+      "p": "Projet qui permet d'afficher des super-heros de différents univers depuis une API publique",
       "techno": ["NuxtJS, API"],
       "link": "http://superheroes-nuxtjs.herokuapp.com/",
       "img": "/superheroes.png"
     },
-    {
-      "h4": "Yams",
-      "p": "Un projet en cours de jeu de Yams!",
-      "techno": ["NuxtJS"],
-      "link": "http://yams-nuxtjs.herokuapp.com/",
-      "img": "/yams.png"
-    },
 
-    {
-      "h4": "Je gère ma collection",
-      "p": "Projet en cours qui permet de suivre une collection de CD, vinyles...",
-      "techno": ["React", "TailwindCSS"],
-      "link": "https://jegeremacollection.com/",
-      "img": "/jegeremacollection.png"
-    },
     {
       "h4": "Site du groupe Ben et Fist",
       "p": "Site du groupe de punk/rock toulousain Ben et Fist",
