@@ -27,19 +27,24 @@ export default function Header({ isOpen, setIsOpen }) {
           </HashLink>
         </div>
       </nav>
-      <button className="header_menu_btn" onClick={handleMenu}>
-        <GiHamburgerMenu />
+      <button className="header_menu_btn">
+        <GiHamburgerMenu onClick={handleMenu} />
       </button>
       {isOpen ? (
         /*   <div className="header_nav_container-open"> */
         <nav className="header_nav-open">
-          <HashLink to="/#me" id="#me" className="header_link">
+          <HashLink
+            to="/#me"
+            id="#me"
+            className="header_link"
+            onClick={handleMenu}
+          >
             QUI SUIS-JE?
           </HashLink>
-          <HashLink to="#skills" className="header_link">
+          <HashLink to="#skills" className="header_link" onClick={handleMenu}>
             MES COMPETENCES
           </HashLink>
-          <HashLink to="#projects" className="header_link">
+          <HashLink to="#projects" className="header_link" onClick={handleMenu}>
             MES PROJETS
           </HashLink>
           <div className="header_menu_btn_container">

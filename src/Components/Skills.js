@@ -3,7 +3,7 @@ import SkillsData from "../Assets/projects.json";
 console.log(SkillsData.projects[3].techno);
 export default function Skills() {
   return (
-    <div className="skills" id="skills">
+    <section className="skills" id="skills">
       <div className="skills_title_container">
         <h1 className="skills_title"> MES COMPETENCES</h1>
       </div>
@@ -20,6 +20,6 @@ export default function Skills() {
           /* </div> */
         ))}
       </div>
-    </div>
+    </section>
   );
 }

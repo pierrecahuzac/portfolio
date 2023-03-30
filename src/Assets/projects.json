@@ -9,6 +9,13 @@
   ],
   "projects": [
     {
+      "h4": "Le blog du dev",
+      "p": "Permet de créer des articles de blog",
+      "techno": ["React", "Vite", "NodeJS", "Express", "Prisma", "PostgrSQL"],
+      "link": "https://monblog-frontend.netlify.app/",
+      "img": "/blog.png"
+    },
+    {
       "h4": "Pixel Art",
       "p": "Projet pour dessiner en pixel art",
       "techno": ["React"],

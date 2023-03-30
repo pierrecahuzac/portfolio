@@ -5,7 +5,7 @@ import presentation from "../Assets/projects.json";
 
 export default function Presentation() {
   return (
-    <div className="presentation" id="me">
+    <section className="presentation" id="me">
       {presentation.presentation.map((elem, i) => (
         <div className="presentation_container" key={i}>
           <h1 className="presentation_title">{elem.h1}</h1>
@@ -30,6 +30,6 @@ export default function Presentation() {
           <FiMail className="presentation_svg" />
         </a>
       </div>
-    </div>
+    </section>
   );
 }

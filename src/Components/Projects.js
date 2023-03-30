@@ -14,7 +14,7 @@ export default function Projects() {
     }
   }; */
   return (
-    <div className="projects" id="projects">
+    <section className="projects" id="projects">
       <h1 className="projects_title">MES PROJETS</h1>
       <div className="projects_list">
         {projects.projects.map((elem, i) => (
@@ -45,6 +45,6 @@ export default function Projects() {
           </article>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
