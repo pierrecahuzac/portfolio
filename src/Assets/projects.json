@@ -9,47 +9,47 @@
   ],
   "projects": [
     {
-      "h4": "Le blog du dev",
+      "h4": "LE BLOG DU DEV",
       "p": "Permet de créer des articles de blog",
-      "techno": ["React", "Vite", "NodeJS", "Express", "Prisma", "PostgrSQL"],
+      "techno": "React,Vite, NodeJS, Express, Prisma, PostgrSQL",
       "link": "https://monblog-frontend.netlify.app/",
       "img": "/blog.png"
     },
     {
-      "h4": "Pixel Art",
+      "h4": "PIXEL ART",
       "p": "Projet pour dessiner en pixel art",
-      "techno": ["React"],
+      "techno": "React",
       "link": "https://drawer-ivory.vercel.app/",
       "img": "/pixel_art.png"
     },
     {
-      "h4": "Super Heroes",
+      "h4": "SUPER HEROES",
       "p": "Projet qui permet d'afficher des super-heros de différents univers depuis une API publique",
-      "techno": ["NuxtJS, API"],
+      "techno": "NuxtJS, API",
       "link": "http://superheroes-nuxtjs.herokuapp.com/",
       "img": "/superheroes.png"
     },
 
     {
-      "h4": "Site du groupe Ben et Fist",
+      "h4": "SITE DU GROUPE BEN & FIST",
       "p": "Site du groupe de punk/rock toulousain Ben et Fist",
-      "techno": ["NextJS"],
+      "techno": "NextJS",
       "link": "https://ben-fist-nextjs.vercel.app/",
       "img": "/ben_et_fist.png"
     },
 
     {
-      "h4": "Météo Actuelle",
+      "h4": "METEO ACTUELLE",
       "p": "Projet frontend de recherche de la météo de la ville demandée (dans le monde entier)",
-      "techno": ["React", "Redux"],
+      "techno": "React, Redux",
       "link": "https://meteo-actuelle.netlify.app/",
       "img": "/meteo-actuelle.png"
     },
 
     {
-      "h4": "Tarkov Items Manager",
+      "h4": "TARKOV ITEMS MANAGER",
       "p": "Projet de fin de formation en équipe, permet un suivi de l'évolution du joueur dans le jeu Escape from Tarkov",
-      "techno": ["React", "Redux", "PostgrSQL", "NodeJS", "Express"],
+      "techno": "React, Redux, PostgrSQL, NodeJS, Express",
       "link": "https://www.youtube.com/watch?t=2835&v=Z7l8V3uRuVc&feature=youtu.be",
       "img": "/tarkov.png"
     }
