@@ -64,17 +64,18 @@
         font-family: "Kanit", sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: left;
-        align-items: flex-start;
+        justify-content: center;
+        /* align-items: flex-start; */
         width: 100%;
         height: 100vh;
         font-weight: 700;
         text-align: left;
         &_container {
-            width: 100%;
+            /*   width: 95%; */
+            margin: 0 auto;
             height: auto;
             padding-left: 50px;
-            padding-top: 150px;
+            /* padding-top: 150px; */
         }
         &_title {
             font-size: 50px;
@@ -91,12 +92,12 @@
             font-size: 30px;
             font-weight: 700;
             text-align: left;
-            width: 80%;
+            width: 95%;
         }
         &_logos {
             display: flex;
             flex-wrap: wrap;
-            width: 80%;
+            /*  width: 80%; */
             justify-content: space-evenly;
             padding-left: 50px;
         }

@@ -1,6 +1,6 @@
 import "../Assets/CSS/Skills.scss";
 import SkillsData from "../Assets/projects.json";
-
+console.log(SkillsData.projects[3].techno);
 export default function Skills() {
   return (
     <div className="skills" id="skills">

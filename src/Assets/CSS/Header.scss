@@ -61,18 +61,15 @@
   &_menu_btn {
     width: 60px;
     height: 40px;
-    line-height: 40px;
     background-color: transparent;
     border: none;
-    font-size: 20px;
-    margin-right: 20px;
   }
 
   &_menu_btn {
     cursor: pointer;
   }
   &_menu_btn svg {
-    width: 60px;
+    width: 100%;
     height: 40px;
     color: $text-color;
   }
