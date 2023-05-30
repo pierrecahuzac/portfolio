@@ -22,13 +22,6 @@
       "link": "https://drawer-ivory.vercel.app/",
       "img": "/pixel_art.png"
     },
-    {
-      "h4": "SUPER HEROES",
-      "p": "Projet qui permet d'afficher des super-heros de différents univers depuis une API publique",
-      "techno": "NuxtJS, API",
-      "link": "http://superheroes-nuxtjs.herokuapp.com/",
-      "img": "/superheroes.png"
-    },
 
     {
       "h4": "SITE DU GROUPE BEN & FIST",
