@@ -9,6 +9,13 @@
   ],
   "projects": [
     {
+      "h4": "METEO ACTUELLE (nouvelle version)",
+      "p": "Projet frontend de recherche de la météo de la ville demandée (dans le monde entier)",
+      "techno": "React",
+      "link": "https://meteo-actuelle.vercel.app/",
+      "img": "/meteo-actuelle_nv.jpg"
+    },
+    {
       "h4": "LE BLOG DU DEV",
       "p": "Permet de créer des articles de blog",
       "techno": "React,Vite, NodeJS, Express, Prisma, PostgrSQL",
