@@ -12,9 +12,6 @@ export default function Header({ isOpen, setIsOpen }) {
   return (
     <div className="header" id="accueil">
       <nav className="header_nav">
-        <HashLink to="/" id="#accueil" className="header_logo">
-          PORTFOLIO
-        </HashLink>
         <div className="header_links">
           <HashLink to="/#me" id="#me" className="header_link">
             QUI SUIS-JE?

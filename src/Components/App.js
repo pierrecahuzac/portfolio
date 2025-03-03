@@ -17,13 +17,6 @@ export default function App() {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  /* const [contactInformations, setContactInformations] = useState({
-    name: "",
-    firstname: "",
-    email: "",
-    message: "",
-  }); */
-
   return (
     <div className="App">
       <BackgroundAnimation />
@@ -32,10 +25,6 @@ export default function App() {
       <Presentation />
       <Skills />
       <Projects />
-      {/* <Footer
-        contactInformations={contactInformations}
-        setContactInformations={setContactInformations}
-      /> */}
     </div>
   );
 }

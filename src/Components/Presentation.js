@@ -21,7 +21,7 @@ export default function Presentation() {
           <FaLinkedin className="presentation_svg" />
         </a>
         <a
-          href="https://www.github.com/inflames32/"
+          href="https://www.github.com/pierrecahuzac/"
           className="presentation_logo"
         >
           <FaGithub className="presentation_svg" />
